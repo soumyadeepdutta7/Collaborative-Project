@@ -1,0 +1,139 @@
+/* General Styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* First Navbar Styles */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.nav-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center; 
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.fas {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+/* Second Navbar Styles */
+.second-navbar {
+    background-color: #fff;
+    color: #000;
+    padding: 10px;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    height: 60px;
+}
+
+.reebok-icon {
+    width: 156px; 
+    height: 39px;
+    padding-right: 35px;
+}
+
+.navbar-links {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    margin-top: -2px;
+    margin-left: 54px;
+}
+
+.navbar-links li a {
+    color: #000;
+    text-decoration: none;
+}
+.nav-links li a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 2px;
+}
+.search-bar {
+    flex-grow: 1;
+    margin-right: 20px;
+}
+
+.search-bar input {
+    width: 27%;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    background-color: #fff;
+    color: #000;
+    margin-left: 385px;
+}
+
+.express-delivery-icon {
+    font-size: 24px;
+    color: #000;
+}
