@@ -1,5 +1,5 @@
 # Collaborative-Project
-#Reebok Shoe Page Clone
+# Reebok-Shoepage-clone
 
 This collaborative project is a clone of the Reebok shoe page, brought to you by Soumyadeep and Adarsh. Crafted with passion and precision, this project showcases our skills in front-end development, particularly in HTML and CSS.
 
